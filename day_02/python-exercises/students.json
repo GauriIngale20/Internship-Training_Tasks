@@ -1,0 +1,8 @@
+[
+  {"name":"Gauri","department":"CSE","marks":85},
+  {"name":"Priya","department":"IT","marks":92},
+  {"name":"Rahul","department":"CSE","marks":78},
+  {"name":"Sneha","department":"IT","marks":88},
+  {"name":"Amit","department":"ECE","marks":null},
+  {"name":"Gauri","department":"CSE","marks":85}
+]
