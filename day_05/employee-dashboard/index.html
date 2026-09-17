@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Employee Dashboard</h1>
+
+        <div class="controls">
+
+            <input type="text" id="search" placeholder="Search by name...">
+
+            <select id="department">
+                <option value="All">All Departments</option>
+                <option value="Engineering">Engineering</option>
+                <option value="HR">HR</option>
+                <option value="Marketing">Marketing</option>
+                <option value="Sales">Sales</option>
+                <option value="Finance">Finance</option>
+                <option value="Operations">Operations</option>
+            </select>
+
+            <select id="sort">
+                <option value="default">Sort by Salary</option>
+                <option value="high">High to Low</option>
+                <option value="low">Low to High</option>
+            </select>
+
+            <button class="add-btn" onclick="showAddForm()">
+                + Add Employee
+            </button>
+
+        </div>
+
+        <h2>Employees</h2>
+
+        <div id="employeeList"></div>
+
+        <div id="employeeForm" class="form-box">
+
+            <h2>Add Employee</h2>
+
+            <input type="text" id="employeeName" placeholder="Full Name">
+
+            <input type="text" id="employeeDepartment" placeholder="Department">
+
+            <input type="number" id="employeeSalary" placeholder="Salary">
+
+            <input type="email" id="employeeEmail" placeholder="Email">
+
+            <div>
+                <button class="save-btn" onclick="saveEmployee()">Save</button>
+                <button class="cancel-btn" onclick="hideForm()">Cancel</button>
+            </div>
+
+        </div>
+
+        <div id="employeeDetails" class="details-box"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
