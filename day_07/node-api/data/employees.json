@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Rahul",
+    "department": "IT",
+    "salary": 50000,
+    "email": "rahul@example.com"
+  },
+  {
+    "id": 2,
+    "name": "Priya",
+    "department": "HR",
+    "salary": 45000,
+    "email": "priya@example.com"
+  },
+  {
+    "id": 3,
+    "name": "Amit",
+    "department": "Finance",
+    "salary": 55000,
+    "email": "amit@example.com"
+  },
+  {
+    "id": 4,
+    "name": "Sneha",
+    "department": "Sales",
+    "salary": 42000,
+    "email": "sneha@example.com"
+  },
+  {
+    "id": 5,
+    "name": "Riya",
+    "department": "IT",
+    "salary": 58000,
+    "email": "riya@example.com"
+  },
+  {
+    "id": 6,
+    "name": "Karan",
+    "department": "Marketing",
+    "salary": 48000,
+    "email": "karan@example.com"
+  },
+  {
+    "id": 7,
+    "name": "Neha",
+    "department": "Finance",
+    "salary": 62000,
+    "email": "neha@example.com"
+  },
+  {
+    "id": 8,
+    "name": "Vivek",
+    "department": "Sales",
+    "salary": 46000,
+    "email": "vivek@example.com"
+  },
+  {
+    "id": 9,
+    "name": "Gauri Santosh Ingale ",
+    "department": "IT",
+    "salary": 50000,
+    "email": "ingalegauri34@gmail.com"
+  },
+  {
+    "id": 10,
+    "name": "Revati  Mohod",
+    "department": "IT",
+    "salary": 50000,
+    "email": "mohod@gmail.com"
+  }
+]
