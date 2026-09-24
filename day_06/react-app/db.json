@@ -1,0 +1,53 @@
+{
+  "employees": [
+    {
+      "id": 101,
+      "name": "Rahul",
+      "department": "IT",
+      "salary": 50000,
+      "email": "rahul@gmail.com"
+    },
+    {
+      "id": 102,
+      "name": "Priya",
+      "department": "HR",
+      "salary": 45000,
+      "email": "priya@gmail.com"
+    },
+    {
+      "id": 103,
+      "name": "Amit",
+      "department": "Finance",
+      "salary": 55000,
+      "email": "amit@gmail.com"
+    },
+    {
+      "id": 104,
+      "name": "Sneha",
+      "department": "Sales",
+      "salary": 42000,
+      "email": "sneha@gmail.com"
+    },
+    {
+      "id": 105,
+      "name": "Neha",
+      "department": "IT",
+      "salary": 48000,
+      "email": "neha@gmail.com"
+    },
+    {
+      "id": 106,
+      "name": "Rohan",
+      "department": "Finance",
+      "salary": 60000,
+      "email": "rohan@gmail.com"
+    },
+    {
+      "id": 107,
+      "name": "gauri",
+      "department": "IT",
+      "salary": 500000,
+      "email": "ingalegauri34@gmail.com"
+    }
+  ]
+}
