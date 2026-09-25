@@ -1,0 +1,501 @@
+facility_id,location,facility_type,cleanliness_score,odor_score,waste_level,water_availability,footfall,complaints,hours_since_cleaning,inspection_date,hygiene_risk
+FAC0001,Mumbai,Bus Station,6.75,1.23,3.48,0,91,3,44,2026-02-14,Medium
+FAC0002,Nashik,Hospital,6.31,1.29,1.84,0,278,19,2,2026-08-03,Medium
+FAC0003,Pune,Public Toilet,2.98,6.3,8.28,0,408,5,45,2026-05-23,High
+FAC0004,Akola,Bus Station,2.4,9.61,4.03,0,214,3,23,2026-05-16,High
+FAC0005,Mumbai,Bus Station,8.26,7.57,5.83,1,60,17,19,2026-07-05,Medium
+FAC0006,Nagpur,College,6.2,7.34,1.41,0,415,9,6,2026-07-14,Medium
+FAC0007,Akola,Office,3.5,6.72,4.28,1,201,6,43,2026-02-06,Medium
+FAC0008,Mumbai,Office,6.48,2.54,7.56,0,256,12,18,2026-04-23,Medium
+FAC0009,Pune,Public Toilet,7.16,8.59,7.98,0,440,1,21,2026-02-03,Medium
+FAC0010,Pune,Office,2.9,9.49,8.89,1,128,20,32,2026-08-23,High
+FAC0011,Nashik,Railway Station,2.29,2.26,7.7,1,402,18,28,2026-07-05,High
+FAC0012,Nagpur,Office,2.97,9.98,5.59,0,406,1,8,2026-03-23,Medium
+FAC0013,Akola,Bus Station,8.13,4.8,1.57,1,325,14,34,2026-01-06,Medium
+FAC0014,Amravati,Public Toilet,7.12,2.03,8.96,1,413,20,22,2026-08-11,High
+FAC0015,Amravati,Office,2.42,1.03,7.5,1,276,5,33,2026-06-02,Medium
+FAC0016,Nashik,College,8.58,5.57,2.79,1,410,5,35,2026-06-15,Medium
+FAC0017,Nashik,College,5.4,2.01,4.27,1,142,1,16,2026-02-13,Low
+FAC0018,Nagpur,Public Toilet,7.59,8.34,9.8,0,85,15,36,2026-09-28,High
+FAC0019,Mumbai,Office,8.85,4.81,2.91,0,385,9,26,2026-07-11,Medium
+FAC0020,Nashik,Bus Station,4.94,5.66,2.09,0,52,10,2,2026-04-28,Medium
+FAC0021,Akola,College,6.3,1.06,7.37,0,137,2,3,2026-09-21,Medium
+FAC0022,Pune,Hospital,3.14,7.02,2.93,0,390,18,37,2026-08-31,High
+FAC0023,Pune,Office,8.27,2.71,1.87,1,201,13,27,2026-01-28,Low
+FAC0024,Nagpur,Hospital,7.06,9.86,1.89,1,392,10,7,2026-04-08,Medium
+FAC0025,Nashik,College,5.83,2.26,2.65,1,147,2,29,2026-01-26,Low
+FAC0026,Pune,Railway Station,6.87,5.87,1.13,0,494,7,11,2026-09-04,Medium
+FAC0027,Pune,Public Toilet,2.92,4.61,1.53,1,21,12,17,2026-08-05,Medium
+FAC0028,Nagpur,College,7.27,7.57,8.05,1,99,6,19,2026-02-01,Medium
+FAC0029,Nagpur,College,7.73,1.51,6.26,0,49,16,6,2026-02-04,Medium
+FAC0030,Nashik,College,7.08,3.12,2.08,0,316,19,3,2026-08-03,Medium
+FAC0031,Akola,Railway Station,6.92,6.09,3.85,1,124,10,16,2026-03-09,Medium
+FAC0032,Nashik,College,7.05,3.7,3.85,0,24,14,40,2026-02-07,Medium
+FAC0033,Akola,Public Toilet,5.84,5.55,2.19,1,471,2,16,2026-03-22,Low
+FAC0034,Mumbai,College,4.94,5.89,3.72,0,361,17,20,2026-03-10,High
+FAC0035,Nagpur,Office,3.38,9.01,7.68,0,159,9,39,2026-06-25,High
+FAC0036,Mumbai,Railway Station,2.83,6.71,3.38,1,148,1,6,2026-05-22,Medium
+FAC0037,Mumbai,Railway Station,1.4,4.0,2.18,1,102,14,36,2026-01-05,Medium
+FAC0038,Nashik,Bus Station,2.01,9.51,7.22,0,299,1,24,2026-03-17,High
+FAC0039,Mumbai,Hospital,4.87,1.38,4.28,0,480,11,14,2026-02-22,Medium
+FAC0040,Nagpur,Railway Station,4.18,6.04,8.87,0,493,7,11,2026-01-13,High
+FAC0041,Nagpur,Office,2.61,9.32,8.04,1,430,7,18,2026-02-25,High
+FAC0042,Akola,Hospital,4.44,1.35,5.24,0,438,14,23,2026-04-25,High
+FAC0043,Mumbai,Bus Station,1.21,2.74,3.95,0,415,8,23,2026-07-24,High
+FAC0044,Nashik,Public Toilet,7.12,8.59,3.98,0,79,8,12,2026-01-20,Medium
+FAC0045,Amravati,Railway Station,1.98,4.91,7.56,1,243,19,33,2026-04-08,High
+FAC0046,Mumbai,Public Toilet,3.29,7.38,1.02,0,206,13,5,2026-06-10,Medium
+FAC0047,Pune,Office,6.97,2.12,9.1,1,361,13,21,2026-06-01,Medium
+FAC0048,Nashik,Public Toilet,5.99,2.73,6.98,1,366,5,40,2026-07-27,Medium
+FAC0049,Mumbai,Public Toilet,5.93,1.0,3.58,1,422,18,39,2026-08-27,Medium
+FAC0050,Nashik,Office,4.98,7.08,5.6,0,357,2,19,2026-06-21,Medium
+FAC0051,Amravati,College,1.84,9.57,3.11,1,135,6,10,2026-05-06,Medium
+FAC0052,Nagpur,Office,9.86,6.5,7.92,1,232,20,37,2026-07-16,High
+FAC0053,Nagpur,Hospital,5.45,3.2,6.9,0,477,3,28,2026-09-23,Medium
+FAC0054,Mumbai,Bus Station,5.18,6.02,9.26,0,253,4,30,2026-06-12,High
+FAC0055,Nagpur,Office,9.55,9.02,6.51,1,445,17,29,2026-09-01,Medium
+FAC0056,Mumbai,Hospital,5.05,7.77,8.56,1,412,16,32,2026-05-21,High
+FAC0057,Nagpur,Hospital,4.96,7.42,3.11,1,183,17,6,2026-04-29,Medium
+FAC0058,Pune,Railway Station,4.45,2.38,2.93,1,228,10,35,2026-02-01,Medium
+FAC0059,Pune,College,2.86,4.78,9.14,0,458,18,25,2026-06-30,High
+FAC0060,Nagpur,Railway Station,3.69,4.51,9.02,1,295,17,39,2026-04-23,High
+FAC0061,Nagpur,Bus Station,3.46,5.37,4.5,1,390,5,30,2026-01-14,Medium
+FAC0062,Pune,Hospital,9.16,6.33,6.97,0,349,13,9,2026-01-26,Medium
+FAC0063,Pune,Public Toilet,3.34,3.95,5.09,1,409,12,18,2026-02-11,Medium
+FAC0064,Mumbai,College,5.23,7.74,1.47,1,134,20,5,2026-01-16,Medium
+FAC0065,Mumbai,College,9.55,2.79,1.18,0,142,4,31,2026-04-22,Low
+FAC0066,Amravati,Bus Station,5.19,3.31,4.32,0,418,5,20,2026-01-14,Medium
+FAC0067,Nashik,Office,9.36,6.18,9.17,1,223,6,5,2026-05-05,Medium
+FAC0068,Akola,Bus Station,1.92,7.95,8.65,0,427,18,3,2026-08-08,High
+FAC0069,Amravati,Railway Station,6.95,1.62,6.83,0,454,13,32,2026-07-05,High
+FAC0070,Akola,Bus Station,6.72,8.46,7.37,1,110,16,42,2026-09-05,High
+FAC0071,Akola,Railway Station,5.18,8.43,6.33,1,456,7,6,2026-05-05,Medium
+FAC0072,Nagpur,Railway Station,7.75,6.13,7.01,1,34,15,21,2026-04-19,Medium
+FAC0073,Nagpur,College,4.19,3.33,3.52,1,304,0,34,2026-05-04,Medium
+FAC0074,Amravati,College,7.48,5.4,7.82,1,350,15,29,2026-05-31,Medium
+FAC0075,Akola,Railway Station,2.99,7.23,3.76,1,262,17,34,2026-06-19,High
+FAC0076,Amravati,Office,4.17,5.08,3.76,0,81,6,21,2026-04-05,Medium
+FAC0077,Nagpur,Public Toilet,2.72,7.65,3.49,1,71,6,19,2026-04-02,Medium
+FAC0078,Mumbai,Hospital,3.72,7.37,2.14,0,47,17,19,2026-09-09,High
+FAC0079,Amravati,Public Toilet,1.92,1.11,3.56,1,245,10,12,2026-09-02,Medium
+FAC0080,Akola,College,2.03,1.59,5.43,0,97,4,37,2026-05-08,High
+FAC0081,Pune,Railway Station,2.07,7.88,6.46,0,417,16,25,2026-06-02,High
+FAC0082,Mumbai,Hospital,8.74,9.91,3.75,0,332,3,14,2026-05-16,Medium
+FAC0083,Pune,Office,6.94,2.41,2.56,0,100,0,27,2026-08-29,Low
+FAC0084,Mumbai,Bus Station,3.62,3.08,7.36,1,56,7,17,2026-04-12,Medium
+FAC0085,Amravati,Hospital,4.83,5.9,6.83,1,443,4,5,2026-06-07,Medium
+FAC0086,Akola,Office,6.36,8.42,9.29,1,83,14,45,2026-07-26,High
+FAC0087,Mumbai,Public Toilet,9.48,5.5,5.44,0,326,1,28,2026-05-09,Medium
+FAC0088,Amravati,Hospital,1.23,3.06,7.07,0,411,8,37,2026-08-29,High
+FAC0089,Pune,Public Toilet,5.67,4.98,3.5,1,345,15,6,2026-07-29,Medium
+FAC0090,Mumbai,Railway Station,4.0,7.03,8.72,1,230,15,19,2026-01-19,High
+FAC0091,Mumbai,Bus Station,5.09,3.83,3.91,1,462,16,1,2026-08-25,Medium
+FAC0092,Nagpur,Public Toilet,4.72,2.69,4.26,1,340,14,4,2026-03-09,Medium
+FAC0093,Nagpur,Office,9.35,4.94,7.28,0,34,20,39,2026-03-23,High
+FAC0094,Amravati,Office,3.8,1.12,4.67,0,450,3,30,2026-03-20,Medium
+FAC0095,Nagpur,Railway Station,5.49,7.45,5.58,1,232,15,31,2026-03-16,High
+FAC0096,Pune,Public Toilet,4.45,9.3,5.57,0,462,2,18,2026-09-17,High
+FAC0097,Nashik,Railway Station,3.4,1.02,7.53,1,463,4,29,2026-06-26,Medium
+FAC0098,Nagpur,Bus Station,3.99,7.87,4.39,1,465,6,45,2026-07-16,High
+FAC0099,Mumbai,Office,3.1,7.98,1.39,1,381,12,25,2026-03-19,Medium
+FAC0100,Amravati,Bus Station,5.46,1.33,5.52,1,465,3,29,2026-08-22,Medium
+FAC0101,Akola,Bus Station,1.14,2.3,8.84,0,58,15,17,2026-07-23,High
+FAC0102,Pune,Bus Station,6.85,8.67,8.67,1,182,20,46,2026-01-19,High
+FAC0103,Amravati,Office,6.56,3.11,7.16,1,136,2,28,2026-02-21,Medium
+FAC0104,Akola,Public Toilet,4.99,7.25,9.13,0,186,1,19,2026-08-09,High
+FAC0105,Nashik,Railway Station,2.31,5.78,6.09,0,107,5,6,2026-05-04,Medium
+FAC0106,Amravati,Railway Station,5.48,6.25,3.09,1,255,8,43,2026-05-28,Medium
+FAC0107,Pune,Office,7.1,2.42,4.98,1,320,9,41,2026-05-09,Medium
+FAC0108,Nashik,Public Toilet,5.11,3.72,9.99,1,74,7,25,2026-06-01,Medium
+FAC0109,Mumbai,Office,9.93,3.66,9.8,1,160,0,37,2026-01-26,Medium
+FAC0110,Akola,Hospital,9.2,7.71,8.5,1,417,7,39,2026-04-08,Medium
+FAC0111,Mumbai,College,6.59,7.1,7.49,0,341,3,41,2026-06-08,High
+FAC0112,Mumbai,Railway Station,8.1,1.3,4.28,0,66,9,21,2026-03-31,Medium
+FAC0113,Nagpur,Public Toilet,2.81,8.08,8.89,1,291,16,18,2026-09-04,High
+FAC0114,Nagpur,Office,9.71,3.66,8.83,0,259,2,10,2026-07-23,Medium
+FAC0115,Amravati,Railway Station,9.71,8.24,4.29,1,27,8,35,2026-07-08,Medium
+FAC0116,Amravati,Bus Station,7.06,7.05,6.26,1,75,7,31,2026-06-17,Medium
+FAC0117,Pune,College,9.24,2.99,1.57,1,485,9,42,2026-03-13,Medium
+FAC0118,Nagpur,Railway Station,1.41,1.33,9.96,0,69,7,35,2026-08-21,High
+FAC0119,Mumbai,College,4.34,9.54,7.27,1,320,4,27,2026-09-08,High
+FAC0120,Nagpur,Public Toilet,6.54,9.45,3.52,1,131,14,29,2026-02-20,Medium
+FAC0121,Nagpur,College,9.83,4.31,9.12,1,51,12,18,2026-08-21,Medium
+FAC0122,Nagpur,Bus Station,1.83,2.91,6.76,0,45,10,16,2026-04-16,High
+FAC0123,Nagpur,Bus Station,1.62,7.89,2.86,0,436,7,22,2026-01-02,High
+FAC0124,Mumbai,College,3.5,9.86,9.89,1,428,5,8,2026-03-09,High
+FAC0125,Amravati,Hospital,1.13,8.11,3.14,1,28,5,17,2026-08-04,Medium
+FAC0126,Pune,Bus Station,5.73,7.71,5.29,1,282,18,7,2026-04-24,Medium
+FAC0127,Amravati,Railway Station,9.51,1.39,8.05,1,254,20,2,2026-07-25,Medium
+FAC0128,Nashik,Hospital,4.84,1.97,7.41,1,57,2,21,2026-02-03,Medium
+FAC0129,Akola,Railway Station,2.14,6.62,6.27,1,215,19,34,2026-09-16,High
+FAC0130,Pune,Public Toilet,6.45,1.89,7.32,0,240,14,15,2026-08-21,Medium
+FAC0131,Nagpur,Office,4.59,7.57,3.81,1,360,8,24,2026-08-31,Medium
+FAC0132,Nashik,College,1.6,8.49,1.84,0,401,11,9,2026-06-18,High
+FAC0133,Nashik,Public Toilet,7.03,4.7,8.86,1,464,1,19,2026-06-30,Medium
+FAC0134,Nashik,Public Toilet,1.93,5.57,2.39,1,134,3,23,2026-02-28,Medium
+FAC0135,Nagpur,Public Toilet,7.86,6.17,8.26,0,331,8,2,2026-06-08,Medium
+FAC0136,Nagpur,Office,9.29,4.16,2.63,0,309,12,5,2026-01-16,Medium
+FAC0137,Akola,Office,1.83,5.77,4.39,1,194,5,24,2026-06-16,Medium
+FAC0138,Amravati,Office,7.99,6.11,1.76,0,99,5,40,2026-02-11,Medium
+FAC0139,Nashik,College,3.45,6.96,5.37,1,232,8,14,2026-06-26,Medium
+FAC0140,Nagpur,Railway Station,4.87,3.55,7.11,1,289,9,3,2026-01-29,Medium
+FAC0141,Akola,College,1.07,3.71,2.9,0,411,8,19,2026-01-04,High
+FAC0142,Akola,College,5.48,4.88,2.16,0,276,17,43,2026-07-23,High
+FAC0143,Pune,Bus Station,8.76,1.38,1.17,0,461,10,37,2026-07-27,Medium
+FAC0144,Pune,Office,7.39,4.76,2.04,0,186,5,40,2026-07-05,Medium
+FAC0145,Akola,Office,1.79,8.6,3.19,1,288,2,26,2026-06-23,Medium
+FAC0146,Akola,Public Toilet,2.99,8.01,1.69,0,291,16,13,2026-03-17,High
+FAC0147,Nagpur,Office,3.13,2.32,2.78,0,409,20,5,2026-09-10,Medium
+FAC0148,Nagpur,Railway Station,5.18,6.07,6.22,1,462,20,21,2026-02-04,High
+FAC0149,Akola,Railway Station,5.22,6.68,8.17,0,200,16,5,2026-08-20,High
+FAC0150,Pune,Railway Station,1.34,4.32,3.58,0,334,19,33,2026-01-22,High
+FAC0151,Nagpur,College,5.05,8.29,6.87,1,329,15,33,2026-08-19,High
+FAC0152,Amravati,Hospital,1.93,9.09,4.09,0,278,20,12,2026-08-13,High
+FAC0153,Pune,Public Toilet,9.92,5.72,6.49,1,210,9,25,2026-01-27,Medium
+FAC0154,Akola,Office,8.1,6.83,1.59,0,305,12,19,2026-03-18,Medium
+FAC0155,Mumbai,Railway Station,4.0,6.24,2.27,1,178,20,45,2026-03-08,High
+FAC0156,Mumbai,Office,6.36,9.44,3.79,1,349,10,9,2026-09-27,Medium
+FAC0157,Nagpur,Public Toilet,1.84,7.03,5.58,0,205,9,12,2026-09-06,High
+FAC0158,Nashik,Office,2.73,10.0,2.39,1,452,3,33,2026-09-27,Medium
+FAC0159,Nagpur,Hospital,1.34,4.03,7.9,0,325,12,10,2026-03-26,High
+FAC0160,Mumbai,Railway Station,7.49,1.39,4.28,0,247,19,19,2026-04-30,Medium
+FAC0161,Mumbai,Bus Station,5.81,3.79,8.28,1,482,6,24,2026-08-14,Medium
+FAC0162,Nagpur,Public Toilet,5.16,3.54,4.44,1,102,6,39,2026-01-27,Medium
+FAC0163,Akola,College,6.77,8.87,5.99,0,384,16,8,2026-03-24,High
+FAC0164,Akola,College,3.46,9.15,2.33,1,66,7,29,2026-08-01,Medium
+FAC0165,Akola,College,1.48,5.52,3.12,0,211,7,2,2026-06-21,Medium
+FAC0166,Pune,Railway Station,8.12,2.24,3.58,1,376,4,46,2026-01-03,Medium
+FAC0167,Pune,College,9.15,1.17,2.94,0,300,19,34,2026-05-28,Medium
+FAC0168,Nashik,Bus Station,3.14,2.1,3.15,1,52,3,32,2026-01-09,Medium
+FAC0169,Akola,Hospital,6.69,6.18,7.47,1,239,0,40,2026-08-02,Medium
+FAC0170,Nashik,Bus Station,2.69,7.01,5.71,1,54,16,35,2026-01-11,High
+FAC0171,Amravati,Public Toilet,4.51,5.23,6.72,1,149,0,23,2026-05-04,Medium
+FAC0172,Nashik,Public Toilet,7.6,6.65,7.94,1,88,1,23,2026-03-31,Medium
+FAC0173,Amravati,Office,8.47,7.16,9.83,1,343,5,9,2026-08-23,Medium
+FAC0174,Pune,Bus Station,1.33,2.81,8.12,0,181,9,33,2026-08-31,High
+FAC0175,Akola,Public Toilet,3.28,7.78,2.72,1,461,1,42,2026-03-05,Medium
+FAC0176,Nagpur,Railway Station,8.19,4.93,4.6,1,478,12,22,2026-09-12,Medium
+FAC0177,Pune,Bus Station,4.31,8.18,3.4,0,392,13,6,2026-04-03,Medium
+FAC0178,Mumbai,Railway Station,5.91,3.89,1.72,1,176,14,39,2026-03-27,Medium
+FAC0179,Mumbai,College,7.21,4.16,1.38,1,334,13,18,2026-02-08,Medium
+FAC0180,Mumbai,Railway Station,7.04,4.66,5.62,0,35,4,39,2026-01-18,Medium
+FAC0181,Nashik,Hospital,2.14,3.12,6.81,1,216,18,3,2026-08-19,Medium
+FAC0182,Akola,Office,9.54,4.35,7.87,0,291,11,26,2026-05-23,Medium
+FAC0183,Amravati,Public Toilet,3.25,2.02,7.62,1,285,12,36,2026-05-14,High
+FAC0184,Amravati,Railway Station,7.34,2.93,6.51,1,122,3,9,2026-03-30,Low
+FAC0185,Amravati,Bus Station,9.09,5.01,1.79,1,361,11,46,2026-05-29,Medium
+FAC0186,Nagpur,College,9.02,8.66,7.41,0,426,11,33,2026-04-13,High
+FAC0187,Pune,Bus Station,8.13,3.13,5.45,1,303,18,24,2026-03-08,Medium
+FAC0188,Nashik,College,6.51,1.78,3.78,1,289,13,27,2026-03-06,Medium
+FAC0189,Nashik,Hospital,9.75,6.78,5.05,1,85,17,41,2026-03-08,Medium
+FAC0190,Nagpur,Hospital,4.89,9.2,1.5,0,285,4,20,2026-06-15,Medium
+FAC0191,Nagpur,Office,9.41,3.03,9.53,1,453,2,17,2026-05-21,Medium
+FAC0192,Nagpur,Office,2.13,3.73,5.8,0,323,18,10,2026-06-22,High
+FAC0193,Nashik,Public Toilet,8.58,6.07,8.43,0,61,1,42,2026-04-18,Medium
+FAC0194,Akola,Office,7.9,4.75,6.75,1,475,20,35,2026-06-04,High
+FAC0195,Amravati,Hospital,5.35,8.24,7.16,1,252,2,45,2026-08-14,High
+FAC0196,Akola,Railway Station,4.74,5.18,4.06,0,180,10,47,2026-03-08,High
+FAC0197,Pune,Hospital,7.85,5.63,1.96,0,258,3,18,2026-03-14,Medium
+FAC0198,Nashik,Office,1.87,3.61,4.46,1,147,5,21,2026-06-10,Medium
+FAC0199,Amravati,College,2.71,2.43,9.96,1,275,9,32,2026-07-21,High
+FAC0200,Pune,Bus Station,5.55,9.7,2.94,1,44,1,19,2026-08-29,Medium
+FAC0201,Akola,Railway Station,3.57,1.07,1.97,0,471,8,47,2026-07-07,Medium
+FAC0202,Pune,Bus Station,1.41,1.46,6.06,1,303,9,5,2026-08-19,Medium
+FAC0203,Akola,Public Toilet,7.88,3.52,9.9,0,85,3,26,2026-07-07,Medium
+FAC0204,Mumbai,Public Toilet,7.79,2.79,5.58,0,43,1,9,2026-08-31,Low
+FAC0205,Nagpur,Railway Station,5.67,2.34,9.04,0,187,19,21,2026-06-03,High
+FAC0206,Pune,College,6.34,5.57,5.59,1,382,18,20,2026-07-08,Medium
+FAC0207,Nashik,Railway Station,3.98,1.99,4.75,1,427,20,2,2026-05-16,Medium
+FAC0208,Pune,Hospital,9.7,8.05,7.99,0,389,1,38,2026-09-26,Medium
+FAC0209,Nashik,Office,6.66,6.58,8.57,0,440,7,3,2026-02-26,Medium
+FAC0210,Nashik,Bus Station,2.72,4.97,4.77,1,373,6,27,2026-08-30,Medium
+FAC0211,Akola,Office,8.86,7.62,1.56,0,285,6,36,2026-09-02,Medium
+FAC0212,Mumbai,Office,5.73,3.82,2.56,1,299,11,44,2026-05-16,Medium
+FAC0213,Mumbai,Hospital,6.49,2.73,3.22,1,135,9,19,2026-09-08,Low
+FAC0214,Mumbai,Bus Station,3.85,4.14,9.4,1,167,3,37,2026-07-14,High
+FAC0215,Mumbai,College,9.06,4.55,4.11,0,168,1,19,2026-06-27,Medium
+FAC0216,Nashik,Office,9.32,6.9,7.73,0,123,17,18,2026-05-20,High
+FAC0217,Mumbai,Hospital,2.24,6.54,6.28,0,45,16,15,2026-01-27,High
+FAC0218,Pune,Office,1.9,3.97,5.25,0,22,17,11,2026-09-01,High
+FAC0219,Amravati,Office,5.3,2.8,9.68,1,166,20,4,2026-04-29,Medium
+FAC0220,Pune,Railway Station,5.82,7.51,9.43,0,233,5,3,2026-04-06,Medium
+FAC0221,Nashik,College,9.43,9.66,9.33,0,24,9,37,2026-06-21,High
+FAC0222,Pune,Public Toilet,3.56,9.9,5.89,1,475,4,33,2026-04-09,High
+FAC0223,Mumbai,Public Toilet,8.28,3.98,7.58,1,387,5,1,2026-06-01,Low
+FAC0224,Akola,College,6.11,7.82,2.58,1,443,13,33,2026-07-25,Medium
+FAC0225,Akola,Railway Station,7.02,2.66,2.27,1,499,7,1,2026-05-01,Low
+FAC0226,Mumbai,Hospital,5.02,3.4,3.97,0,153,20,24,2026-02-01,High
+FAC0227,Akola,Public Toilet,7.01,5.19,2.44,1,373,3,41,2026-04-24,Medium
+FAC0228,Nashik,Office,2.97,2.2,2.38,1,232,17,31,2026-04-22,Medium
+FAC0229,Mumbai,Public Toilet,7.86,7.12,6.36,0,289,14,34,2026-02-09,High
+FAC0230,Nagpur,Public Toilet,9.26,2.01,8.46,0,313,17,10,2026-09-24,Medium
+FAC0231,Amravati,Railway Station,4.98,7.12,7.45,1,66,16,29,2026-03-09,High
+FAC0232,Amravati,Railway Station,5.62,5.11,1.52,1,364,9,47,2026-05-11,Medium
+FAC0233,Amravati,Bus Station,8.35,7.71,6.2,0,236,11,45,2026-01-31,High
+FAC0234,Nagpur,Office,9.41,1.62,9.4,0,166,13,12,2026-08-04,Medium
+FAC0235,Mumbai,Bus Station,4.37,9.02,5.04,1,212,2,44,2026-03-10,Medium
+FAC0236,Nagpur,College,6.88,4.13,2.61,1,290,4,47,2026-01-12,Medium
+FAC0237,Nagpur,Railway Station,9.81,5.17,7.47,1,292,12,15,2026-06-27,Medium
+FAC0238,Amravati,Hospital,2.4,2.7,8.88,0,36,13,40,2026-04-16,High
+FAC0239,Pune,Hospital,1.61,6.35,5.02,0,145,1,26,2026-04-22,High
+FAC0240,Nashik,Bus Station,7.79,7.98,2.26,1,139,18,21,2026-06-14,Medium
+FAC0241,Amravati,Bus Station,3.13,8.89,9.87,0,231,9,18,2026-03-31,High
+FAC0242,Akola,Office,6.63,4.84,5.46,1,349,12,34,2026-08-02,Medium
+FAC0243,Mumbai,Hospital,4.67,3.7,2.65,1,143,7,20,2026-08-26,Medium
+FAC0244,Nagpur,Public Toilet,9.23,6.06,9.71,0,218,7,17,2026-02-10,Medium
+FAC0245,Mumbai,Bus Station,9.3,8.62,1.83,0,46,8,25,2026-01-21,Medium
+FAC0246,Akola,College,8.86,2.69,7.86,0,265,6,22,2026-04-19,Medium
+FAC0247,Nashik,Office,9.43,9.66,2.06,1,488,7,45,2026-04-15,Medium
+FAC0248,Mumbai,Public Toilet,4.57,3.15,3.89,1,214,14,35,2026-06-07,Medium
+FAC0249,Nagpur,Public Toilet,3.35,5.62,5.48,0,431,15,21,2026-06-10,High
+FAC0250,Nashik,Bus Station,4.73,6.06,2.99,0,28,8,36,2026-08-02,Medium
+FAC0251,Mumbai,Public Toilet,3.66,2.77,3.07,0,275,17,42,2026-05-12,High
+FAC0252,Akola,Hospital,7.87,5.4,7.51,1,255,5,47,2026-03-13,Medium
+FAC0253,Mumbai,College,7.48,5.39,9.25,0,288,1,5,2026-01-04,Medium
+FAC0254,Pune,Public Toilet,4.71,8.58,3.08,0,24,6,33,2026-01-31,Medium
+FAC0255,Amravati,Bus Station,6.56,7.0,6.55,1,357,15,2,2026-07-30,Medium
+FAC0256,Mumbai,Railway Station,1.11,5.76,3.47,1,28,16,45,2026-04-02,High
+FAC0257,Akola,Public Toilet,1.96,1.87,2.34,0,337,16,17,2026-07-23,High
+FAC0258,Mumbai,College,1.71,9.63,5.13,0,376,7,20,2026-01-17,High
+FAC0259,Nagpur,College,1.84,4.41,5.97,0,346,0,45,2026-09-13,High
+FAC0260,Nagpur,Hospital,8.61,6.8,3.98,0,478,16,3,2026-09-01,Medium
+FAC0261,Mumbai,College,3.44,9.32,7.16,1,480,17,37,2026-04-02,High
+FAC0262,Akola,Hospital,9.36,3.83,9.65,0,405,12,5,2026-05-04,Medium
+FAC0263,Mumbai,College,6.1,8.64,7.09,1,216,4,45,2026-09-14,High
+FAC0264,Nashik,Bus Station,7.71,4.11,1.88,0,449,2,22,2026-07-23,Medium
+FAC0265,Nashik,Railway Station,9.72,3.94,6.71,1,271,7,23,2026-08-10,Medium
+FAC0266,Amravati,College,2.67,6.27,4.42,1,428,7,46,2026-05-18,High
+FAC0267,Amravati,College,2.39,7.41,6.71,1,182,11,7,2026-06-07,Medium
+FAC0268,Nashik,Bus Station,5.0,7.85,1.92,0,115,13,29,2026-09-20,High
+FAC0269,Pune,College,4.67,1.24,4.19,0,325,19,21,2026-05-30,High
+FAC0270,Mumbai,Railway Station,4.72,8.01,7.52,0,312,16,11,2026-03-28,High
+FAC0271,Pune,Public Toilet,2.25,3.71,5.44,0,105,13,18,2026-09-05,High
+FAC0272,Pune,College,8.04,4.25,9.5,1,324,19,13,2026-03-11,Medium
+FAC0273,Akola,Railway Station,3.74,9.54,3.99,1,431,10,29,2026-03-11,High
+FAC0274,Akola,Public Toilet,3.7,6.43,7.26,1,180,5,26,2026-09-09,Medium
+FAC0275,Amravati,Bus Station,9.71,8.04,3.93,1,438,12,24,2026-04-13,Medium
+FAC0276,Nagpur,Railway Station,6.33,5.91,7.14,0,392,14,46,2026-05-30,High
+FAC0277,Mumbai,Public Toilet,8.48,1.62,8.63,1,364,15,9,2026-05-04,Medium
+FAC0278,Pune,Bus Station,3.27,2.39,4.81,1,57,14,39,2026-07-25,Medium
+FAC0279,Mumbai,Bus Station,5.81,9.31,8.83,1,298,1,24,2026-02-13,Medium
+FAC0280,Nashik,Office,1.98,3.23,6.98,0,351,19,3,2026-07-24,High
+FAC0281,Nagpur,Bus Station,9.7,3.98,8.17,0,25,3,17,2026-09-23,Medium
+FAC0282,Nashik,Office,6.02,7.19,2.99,1,220,14,44,2026-09-14,Medium
+FAC0283,Mumbai,Hospital,2.36,9.98,5.34,1,232,2,8,2026-06-28,Medium
+FAC0284,Pune,Office,3.81,5.1,2.86,1,198,15,7,2026-08-20,Medium
+FAC0285,Amravati,Office,3.87,3.7,8.29,0,31,10,42,2026-03-26,High
+FAC0286,Pune,Hospital,9.37,7.66,5.64,0,189,17,28,2026-07-27,High
+FAC0287,Pune,Bus Station,6.67,2.68,6.92,1,34,19,13,2026-08-08,Medium
+FAC0288,Nagpur,Public Toilet,4.5,7.34,2.85,0,315,3,35,2026-06-16,Medium
+FAC0289,Nashik,Railway Station,2.77,2.03,7.04,1,290,20,21,2026-07-20,High
+FAC0290,Nashik,College,6.28,4.13,8.61,0,436,9,40,2026-03-10,High
+FAC0291,Pune,Railway Station,3.82,3.15,2.05,1,375,4,33,2026-03-12,Medium
+FAC0292,Akola,Hospital,6.17,4.81,5.38,0,304,5,32,2026-04-06,Medium
+FAC0293,Nagpur,Railway Station,3.83,5.06,1.48,1,24,15,9,2026-09-16,Medium
+FAC0294,Nashik,College,6.88,4.68,5.43,1,270,5,6,2026-04-23,Low
+FAC0295,Mumbai,Railway Station,3.63,3.47,5.84,0,419,14,37,2026-09-19,High
+FAC0296,Pune,Bus Station,2.02,2.03,7.98,1,297,1,47,2026-04-22,High
+FAC0297,Akola,Public Toilet,9.91,1.92,8.47,0,172,1,29,2026-02-14,Medium
+FAC0298,Akola,Office,4.95,9.95,7.98,0,127,18,45,2026-08-08,High
+FAC0299,Akola,Bus Station,2.49,2.25,2.86,0,432,1,37,2026-05-24,Medium
+FAC0300,Nashik,Office,6.37,2.52,9.81,1,168,18,18,2026-02-18,Medium
+FAC0301,Mumbai,Hospital,2.22,7.75,4.7,0,161,20,9,2026-05-08,High
+FAC0302,Mumbai,Public Toilet,2.32,3.9,3.23,1,270,4,37,2026-08-01,Medium
+FAC0303,Akola,Office,4.38,1.68,8.15,0,226,16,48,2026-07-08,High
+FAC0304,Mumbai,Office,5.09,5.39,6.24,0,394,14,41,2026-07-03,High
+FAC0305,Akola,Public Toilet,8.65,8.16,4.58,1,442,6,32,2026-05-26,Medium
+FAC0306,Amravati,College,4.04,6.2,6.1,1,423,10,44,2026-02-20,High
+FAC0307,Pune,Hospital,6.64,8.53,1.15,0,245,14,1,2026-03-09,Medium
+FAC0308,Akola,College,8.94,3.72,8.87,1,67,20,24,2026-07-10,Medium
+FAC0309,Mumbai,College,6.98,6.84,1.47,1,391,7,28,2026-02-18,Medium
+FAC0310,Amravati,Office,1.01,5.29,2.19,0,285,14,1,2026-06-25,Medium
+FAC0311,Pune,College,8.35,9.89,4.8,0,264,2,15,2026-02-22,Medium
+FAC0312,Mumbai,Hospital,1.93,4.31,3.69,1,416,4,42,2026-02-05,Medium
+FAC0313,Mumbai,Hospital,5.77,1.08,6.85,1,199,6,41,2026-07-30,Medium
+FAC0314,Mumbai,Railway Station,6.54,4.98,2.96,0,91,3,38,2026-06-29,Medium
+FAC0315,Nashik,Bus Station,9.67,3.83,2.26,1,350,2,16,2026-05-26,Low
+FAC0316,Nashik,Hospital,8.01,7.21,8.63,1,125,16,39,2026-07-20,High
+FAC0317,Nagpur,Railway Station,3.66,1.49,9.08,0,273,12,8,2026-02-06,High
+FAC0318,Pune,Public Toilet,5.75,9.8,9.88,1,87,12,37,2026-03-30,High
+FAC0319,Akola,Hospital,7.86,9.59,7.93,0,320,2,1,2026-01-21,Medium
+FAC0320,Pune,Office,9.3,9.54,4.58,1,341,16,27,2026-07-25,Medium
+FAC0321,Nashik,Hospital,1.74,5.83,6.54,1,62,9,6,2026-03-21,Medium
+FAC0322,Nagpur,College,5.83,4.52,6.71,0,178,13,47,2026-05-06,High
+FAC0323,Amravati,Office,1.78,4.91,5.08,0,178,5,8,2026-03-12,Medium
+FAC0324,Mumbai,Public Toilet,7.31,2.47,9.58,1,105,11,9,2026-03-02,Medium
+FAC0325,Mumbai,Bus Station,7.94,1.26,8.26,1,288,2,17,2026-02-09,Low
+FAC0326,Amravati,Bus Station,5.47,5.6,1.5,0,208,5,17,2026-03-01,Medium
+FAC0327,Akola,Railway Station,3.06,5.58,1.4,0,145,1,31,2026-03-18,Medium
+FAC0328,Pune,Office,2.61,9.64,1.32,1,134,10,16,2026-06-13,Medium
+FAC0329,Amravati,Railway Station,3.44,1.7,4.36,0,111,7,34,2026-02-05,Medium
+FAC0330,Pune,College,8.89,8.79,7.96,1,187,2,36,2026-07-08,Medium
+FAC0331,Pune,Hospital,2.81,6.07,3.74,0,257,11,38,2026-05-06,High
+FAC0332,Amravati,Office,2.36,9.39,1.22,1,345,0,22,2026-07-12,Medium
+FAC0333,Nagpur,Office,8.64,7.54,1.94,0,234,15,4,2026-05-24,Medium
+FAC0334,Mumbai,College,1.84,9.29,9.08,1,378,11,30,2026-02-18,High
+FAC0335,Akola,Public Toilet,5.55,6.73,4.55,0,242,4,16,2026-06-11,Medium
+FAC0336,Nagpur,College,9.33,4.54,8.49,1,182,14,18,2026-04-14,Medium
+FAC0337,Akola,Railway Station,2.23,7.93,1.98,0,104,14,30,2026-03-03,High
+FAC0338,Amravati,Hospital,5.82,9.68,2.87,1,257,8,8,2026-06-05,Medium
+FAC0339,Nagpur,Public Toilet,8.44,7.27,1.36,1,95,2,46,2026-07-22,Medium
+FAC0340,Nashik,Office,5.62,7.09,3.34,0,35,12,29,2026-05-08,Medium
+FAC0341,Nagpur,Hospital,1.85,1.92,8.14,0,26,1,15,2026-07-25,Medium
+FAC0342,Amravati,Hospital,4.35,6.67,6.8,1,489,2,2,2026-08-16,Medium
+FAC0343,Amravati,Hospital,8.28,1.83,8.63,1,82,1,30,2026-08-10,Medium
+FAC0344,Nagpur,Public Toilet,8.4,4.55,1.27,1,108,11,14,2026-05-24,Low
+FAC0345,Pune,Bus Station,5.01,2.34,6.53,0,351,9,32,2026-09-03,High
+FAC0346,Mumbai,Bus Station,1.55,3.52,2.24,0,349,16,16,2026-01-10,High
+FAC0347,Akola,Railway Station,9.9,8.04,4.23,1,196,18,33,2026-05-19,Medium
+FAC0348,Akola,Bus Station,2.62,3.87,2.97,1,49,15,34,2026-04-30,Medium
+FAC0349,Nashik,Railway Station,9.77,1.9,6.91,1,293,1,15,2026-07-01,Low
+FAC0350,Mumbai,Public Toilet,9.42,9.92,2.56,0,323,10,48,2026-01-15,High
+FAC0351,Nashik,Public Toilet,7.33,4.17,6.11,0,308,6,32,2026-03-31,Medium
+FAC0352,Amravati,Public Toilet,5.41,1.81,3.09,0,30,16,31,2026-04-14,Medium
+FAC0353,Nashik,Office,8.26,4.07,2.6,1,50,0,10,2026-03-14,Low
+FAC0354,Amravati,Public Toilet,7.97,8.62,8.75,0,211,12,38,2026-06-04,High
+FAC0355,Mumbai,Public Toilet,3.9,9.78,7.59,1,425,20,32,2026-03-31,High
+FAC0356,Pune,Public Toilet,7.36,6.06,9.01,1,134,18,12,2026-05-31,Medium
+FAC0357,Nagpur,Bus Station,2.15,7.56,9.54,1,455,18,3,2026-06-12,High
+FAC0358,Akola,Office,9.29,9.71,2.99,0,499,15,10,2026-02-09,Medium
+FAC0359,Akola,Railway Station,3.14,9.84,2.51,0,440,20,47,2026-01-06,High
+FAC0360,Amravati,College,3.39,3.25,1.61,1,422,3,47,2026-07-17,Medium
+FAC0361,Nashik,Railway Station,4.94,4.78,2.5,1,272,12,23,2026-02-21,Medium
+FAC0362,Amravati,Public Toilet,8.46,8.1,6.2,0,103,14,5,2026-01-11,Medium
+FAC0363,Mumbai,College,3.87,9.56,1.67,0,474,12,11,2026-02-17,High
+FAC0364,Nashik,Railway Station,4.04,9.87,9.04,0,240,20,11,2026-03-22,High
+FAC0365,Mumbai,Bus Station,1.48,3.98,9.77,1,376,17,47,2026-05-16,High
+FAC0366,Nagpur,College,6.95,3.68,1.86,1,312,17,32,2026-07-04,Medium
+FAC0367,Nagpur,Hospital,1.03,1.79,8.42,1,122,3,2,2026-05-30,Medium
+FAC0368,Akola,College,9.79,5.26,2.04,1,261,15,43,2026-07-18,Medium
+FAC0369,Pune,Public Toilet,2.66,8.97,4.32,1,42,8,29,2026-04-26,Medium
+FAC0370,Pune,Bus Station,8.53,6.08,2.36,0,63,11,35,2026-04-27,Medium
+FAC0371,Nagpur,Railway Station,5.98,8.57,8.37,1,294,15,37,2026-06-03,High
+FAC0372,Nagpur,Hospital,1.71,9.12,7.43,0,81,14,12,2026-04-09,High
+FAC0373,Nashik,Public Toilet,2.14,4.81,9.89,1,123,20,10,2026-06-13,High
+FAC0374,Akola,Public Toilet,9.2,9.23,1.6,1,304,12,36,2026-09-24,Medium
+FAC0375,Nagpur,Bus Station,5.12,8.86,8.08,1,77,13,10,2026-02-21,Medium
+FAC0376,Pune,Public Toilet,9.32,6.06,1.91,1,464,17,23,2026-07-16,Medium
+FAC0377,Nashik,Bus Station,6.89,6.15,5.26,0,161,12,10,2026-07-25,Medium
+FAC0378,Akola,College,1.35,9.01,3.98,0,45,15,18,2026-06-22,High
+FAC0379,Nagpur,Public Toilet,8.36,3.73,3.52,1,459,3,15,2026-08-15,Low
+FAC0380,Pune,Office,7.97,3.89,7.56,0,116,14,14,2026-09-06,Medium
+FAC0381,Nashik,Railway Station,7.84,8.8,8.39,0,53,9,46,2026-03-11,High
+FAC0382,Nagpur,College,8.02,5.72,6.12,0,118,6,4,2026-08-22,Medium
+FAC0383,Pune,Office,1.46,4.24,2.79,1,441,14,33,2026-03-05,High
+FAC0384,Nashik,Public Toilet,7.13,3.18,5.4,1,110,15,38,2026-06-26,Medium
+FAC0385,Amravati,Hospital,2.47,9.05,7.74,0,165,0,25,2026-04-20,High
+FAC0386,Amravati,Office,8.71,6.83,7.1,1,353,13,33,2026-01-05,Medium
+FAC0387,Akola,Office,5.27,2.19,2.56,0,134,8,39,2026-05-21,Medium
+FAC0388,Mumbai,Bus Station,4.81,4.39,4.14,1,131,14,20,2026-07-23,Medium
+FAC0389,Nashik,Public Toilet,6.26,1.07,9.99,1,307,20,39,2026-06-02,High
+FAC0390,Akola,Office,7.16,5.34,4.03,1,347,10,18,2026-06-02,Medium
+FAC0391,Mumbai,Public Toilet,2.7,5.66,3.16,0,432,19,26,2026-03-13,High
+FAC0392,Pune,Office,7.49,6.9,9.98,1,484,13,26,2026-01-19,High
+FAC0393,Nashik,Office,6.25,9.95,8.34,1,391,7,44,2026-09-01,High
+FAC0394,Akola,College,9.16,7.05,5.57,0,450,17,12,2026-08-30,Medium
+FAC0395,Amravati,Hospital,2.15,3.33,8.28,0,368,10,42,2026-07-01,High
+FAC0396,Akola,Railway Station,3.01,8.84,4.78,1,210,8,38,2026-03-02,High
+FAC0397,Amravati,Office,5.23,8.8,6.25,0,261,6,33,2026-07-15,High
+FAC0398,Pune,Bus Station,5.77,4.72,8.84,0,90,6,22,2026-08-23,High
+FAC0399,Nagpur,Public Toilet,2.29,8.76,2.62,0,269,10,41,2026-01-30,High
+FAC0400,Amravati,Hospital,1.04,3.46,7.85,0,315,5,32,2026-08-11,High
+FAC0401,Nagpur,Office,6.7,4.63,9.69,1,22,1,35,2026-07-11,Medium
+FAC0402,Mumbai,Hospital,9.55,9.03,7.81,0,29,0,41,2026-04-26,Medium
+FAC0403,Nagpur,College,7.24,4.1,2.16,1,277,18,20,2026-01-24,Medium
+FAC0404,Pune,Public Toilet,3.68,3.62,7.55,1,242,4,22,2026-04-07,Medium
+FAC0405,Nagpur,Hospital,2.48,9.16,8.31,0,136,7,47,2026-01-12,High
+FAC0406,Nashik,Bus Station,6.31,2.52,4.3,0,212,20,17,2026-01-25,Medium
+FAC0407,Pune,Railway Station,6.35,1.43,1.97,0,44,3,27,2026-03-05,Medium
+FAC0408,Amravati,Office,5.93,5.27,2.38,0,174,13,43,2026-09-24,High
+FAC0409,Akola,College,3.43,6.45,2.23,0,281,19,8,2026-02-24,High
+FAC0410,Nagpur,College,5.48,6.48,8.0,0,203,13,19,2026-09-12,High
+FAC0411,Amravati,College,9.19,7.19,5.33,0,21,0,43,2026-09-10,Medium
+FAC0412,Nagpur,Railway Station,2.34,1.81,5.61,0,483,8,42,2026-06-01,High
+FAC0413,Mumbai,Public Toilet,3.38,1.45,8.32,0,456,9,24,2026-08-07,High
+FAC0414,Mumbai,Hospital,7.65,1.85,7.82,0,24,4,43,2026-06-18,Medium
+FAC0415,Amravati,Railway Station,4.22,4.94,6.6,0,210,10,12,2026-07-24,High
+FAC0416,Nagpur,College,9.66,3.45,4.47,1,429,13,42,2026-03-09,Medium
+FAC0417,Pune,Bus Station,7.27,1.53,9.48,0,73,13,38,2026-08-13,High
+FAC0418,Pune,College,2.63,4.42,4.23,0,461,4,31,2026-07-30,High
+FAC0419,Nashik,Office,4.97,1.57,6.89,0,380,16,48,2026-04-25,High
+FAC0420,Akola,Office,9.8,7.03,4.04,0,241,7,31,2026-07-17,Medium
+FAC0421,Nashik,Railway Station,2.34,8.44,9.03,0,25,20,11,2026-09-11,High
+FAC0422,Nashik,Hospital,8.82,1.67,5.42,0,189,8,4,2026-07-13,Medium
+FAC0423,Akola,College,4.63,3.11,5.13,1,65,15,29,2026-09-12,Medium
+FAC0424,Amravati,Bus Station,7.71,1.16,4.63,0,305,17,1,2026-06-05,Medium
+FAC0425,Nagpur,Railway Station,9.01,6.06,6.89,1,194,11,4,2026-06-19,Medium
+FAC0426,Amravati,Office,6.04,6.58,5.26,1,386,14,8,2026-04-24,Medium
+FAC0427,Mumbai,College,1.02,4.2,6.7,1,300,16,24,2026-01-24,High
+FAC0428,Nagpur,Hospital,9.07,5.43,8.4,1,74,8,40,2026-03-03,Medium
+FAC0429,Pune,College,9.37,4.54,5.11,0,386,10,7,2026-03-05,Medium
+FAC0430,Mumbai,College,7.95,5.05,6.93,0,275,0,34,2026-08-10,Medium
+FAC0431,Mumbai,Hospital,8.55,5.35,5.57,0,374,18,12,2026-02-23,Medium
+FAC0432,Nagpur,Public Toilet,4.49,6.4,8.94,1,234,19,45,2026-07-23,High
+FAC0433,Mumbai,Office,9.67,9.73,5.08,0,90,13,39,2026-09-20,High
+FAC0434,Mumbai,Public Toilet,3.69,7.31,8.75,0,122,6,40,2026-06-26,High
+FAC0435,Mumbai,Public Toilet,9.29,2.19,7.39,0,277,17,45,2026-03-01,High
+FAC0436,Pune,College,7.85,6.06,6.25,1,365,17,19,2026-09-25,Medium
+FAC0437,Akola,Office,1.96,4.43,1.48,0,122,8,11,2026-05-09,Medium
+FAC0438,Akola,Railway Station,2.32,1.56,8.06,0,405,17,3,2026-02-22,High
+FAC0439,Pune,Hospital,6.54,7.08,6.06,0,400,20,36,2026-09-19,High
+FAC0440,Pune,Office,8.06,8.19,3.59,0,494,12,25,2026-06-10,Medium
+FAC0441,Mumbai,Office,9.69,1.48,7.69,0,337,14,15,2026-07-08,Medium
+FAC0442,Mumbai,College,7.8,5.92,6.43,0,170,14,12,2026-04-06,Medium
+FAC0443,Akola,Hospital,9.66,7.62,2.07,0,239,8,36,2026-03-24,Medium
+FAC0444,Nashik,College,6.26,3.3,3.98,0,40,4,21,2026-06-04,Medium
+FAC0445,Nashik,College,5.41,6.15,4.22,1,289,7,12,2026-09-16,Medium
+FAC0446,Akola,Public Toilet,2.43,5.89,4.63,1,133,6,43,2026-07-04,Medium
+FAC0447,Amravati,Office,3.64,9.55,6.56,1,307,20,1,2026-06-27,High
+FAC0448,Amravati,Railway Station,5.01,9.14,6.52,0,40,10,25,2026-05-12,High
+FAC0449,Pune,College,5.86,3.55,9.2,1,283,16,29,2026-06-01,High
+FAC0450,Amravati,Office,9.08,2.73,5.63,0,105,17,35,2026-02-03,Medium
+FAC0451,Nashik,Office,2.9,6.67,2.92,1,447,3,14,2026-08-11,Medium
+FAC0452,Akola,College,6.82,9.46,7.72,0,32,14,46,2026-02-14,High
+FAC0453,Pune,Railway Station,1.66,2.6,3.27,0,314,7,17,2026-08-19,Medium
+FAC0454,Mumbai,Bus Station,6.67,4.9,1.15,0,293,0,42,2026-02-02,Medium
+FAC0455,Akola,Office,7.8,6.27,7.31,0,203,16,7,2026-06-04,Medium
+FAC0456,Nagpur,Bus Station,6.46,3.53,9.34,1,222,0,31,2026-04-23,Medium
+FAC0457,Mumbai,Office,2.23,4.52,8.18,1,344,4,20,2026-07-11,Medium
+FAC0458,Nashik,Bus Station,9.62,1.1,8.87,0,83,1,1,2026-07-21,Low
+FAC0459,Nashik,Hospital,5.83,9.52,3.74,1,128,13,42,2026-03-24,High
+FAC0460,Nashik,Railway Station,2.66,6.55,3.27,0,112,18,4,2026-02-07,High
+FAC0461,Mumbai,Office,3.62,1.61,1.88,1,189,11,9,2026-05-01,Low
+FAC0462,Nashik,Office,1.9,6.58,9.1,1,268,14,22,2026-06-06,High
+FAC0463,Akola,Hospital,7.24,2.37,6.1,1,239,5,1,2026-04-24,Low
+FAC0464,Pune,Railway Station,7.41,6.77,3.49,1,88,10,31,2026-07-03,Medium
+FAC0465,Nashik,Hospital,7.97,5.38,1.98,0,450,8,9,2026-05-15,Medium
+FAC0466,Amravati,Bus Station,7.6,6.64,7.55,0,454,16,41,2026-07-27,High
+FAC0467,Mumbai,Hospital,7.92,2.91,1.33,1,298,17,31,2026-07-07,Medium
+FAC0468,Nashik,College,4.53,9.02,6.31,1,88,14,33,2026-07-23,High
+FAC0469,Pune,Hospital,4.27,1.1,3.15,0,407,16,9,2026-04-02,Medium
+FAC0470,Amravati,Hospital,6.1,6.09,8.85,0,396,15,23,2026-09-07,High
+FAC0471,Pune,Railway Station,3.09,3.38,3.11,0,285,11,25,2026-01-24,Medium
+FAC0472,Nashik,Bus Station,1.36,6.84,1.93,1,447,8,38,2026-03-31,Medium
+FAC0473,Nagpur,Bus Station,4.39,4.41,6.29,0,284,8,25,2026-07-27,High
+FAC0474,Nashik,Hospital,4.18,8.81,5.38,1,474,19,1,2026-08-14,High
+FAC0475,Akola,Bus Station,2.49,1.69,6.79,0,96,5,11,2026-03-02,Medium
+FAC0476,Nagpur,Bus Station,6.95,4.73,3.97,0,266,15,31,2026-03-24,High
+FAC0477,Nagpur,Office,6.83,4.7,3.19,0,313,18,11,2026-09-20,Medium
+FAC0478,Pune,Bus Station,1.35,6.15,1.5,1,492,5,34,2026-01-10,Medium
+FAC0479,Pune,Railway Station,8.91,7.55,8.39,0,130,14,39,2026-03-29,High
+FAC0480,Nagpur,Office,2.97,4.7,2.28,0,339,16,17,2026-06-25,High
+FAC0481,Amravati,Hospital,9.3,6.37,1.62,1,217,4,7,2026-09-25,Low
+FAC0482,Pune,Bus Station,8.74,5.54,4.78,0,330,3,12,2026-01-20,Medium
+FAC0483,Nashik,College,8.9,5.78,7.77,0,266,4,39,2026-08-09,Medium
+FAC0484,Akola,Bus Station,5.7,4.33,1.39,1,137,15,25,2026-02-20,Medium
+FAC0485,Pune,Public Toilet,4.83,3.29,7.89,0,165,19,35,2026-04-07,High
+FAC0486,Mumbai,Hospital,1.05,7.69,1.06,0,286,0,25,2026-06-11,Medium
+FAC0487,Nashik,Public Toilet,4.68,1.96,4.83,1,153,17,28,2026-05-22,Medium
+FAC0488,Nashik,Railway Station,9.93,4.58,2.83,1,111,11,36,2026-05-10,Medium
+FAC0489,Amravati,Office,9.9,6.2,7.97,1,396,4,43,2026-04-28,Medium
+FAC0490,Nashik,Bus Station,5.02,7.29,2.46,0,280,12,22,2026-01-27,Medium
+FAC0491,Nashik,Railway Station,2.45,9.68,1.05,0,441,4,31,2026-02-15,High
+FAC0492,Nashik,Office,1.58,3.0,1.72,0,390,12,26,2026-09-24,High
+FAC0493,Amravati,Hospital,3.58,9.67,1.52,0,347,15,29,2026-09-23,High
+FAC0494,Amravati,Public Toilet,3.57,1.3,6.4,0,334,5,44,2026-05-03,High
+FAC0495,Mumbai,Railway Station,6.9,9.78,1.78,1,419,12,23,2026-07-27,Medium
+FAC0496,Akola,Office,6.27,5.66,7.63,0,490,2,36,2026-06-28,High
+FAC0497,Amravati,Public Toilet,4.13,8.34,3.04,0,252,12,37,2026-03-31,High
+FAC0498,Akola,Bus Station,4.66,1.96,1.65,1,194,3,33,2026-05-09,Low
+FAC0499,Mumbai,Railway Station,7.25,9.69,6.07,0,407,10,30,2026-01-15,High
+FAC0500,Pune,Public Toilet,5.34,3.32,4.44,0,366,7,21,2026-09-22,Medium
