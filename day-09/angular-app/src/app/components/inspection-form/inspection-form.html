@@ -1,0 +1,146 @@
+<div class="inspection-page">
+
+  <div class="page-header">
+    <div>
+      <h1>New Facility Inspection</h1>
+      <p>Enter inspection details for a facility.</p>
+    </div>
+
+    <button type="button" class="cancel-btn" (click)="cancel()">
+      Cancel
+    </button>
+  </div>
+
+  <div *ngIf="loading" class="message">
+    Loading facilities...
+  </div>
+
+  <form
+    *ngIf="!loading"
+    [formGroup]="inspectionForm"
+    (ngSubmit)="submitInspection()"
+    class="inspection-form">
+
+    <div class="form-group">
+      <label>Facility</label>
+
+      <select formControlName="facilityId">
+        <option value="">Select Facility</option>
+
+        <option
+          *ngFor="let facility of facilities"
+          [value]="facility.id">
+          {{ facility.name }}
+        </option>
+      </select>
+    </div>
+
+    <div class="form-grid">
+
+      <div class="form-group">
+        <label>Cleanliness Score</label>
+        <input
+          type="number"
+          formControlName="cleanlinessScore"
+          min="0"
+          max="100"
+          placeholder="0 - 100">
+      </div>
+
+      <div class="form-group">
+        <label>Odor Score</label>
+        <input
+          type="number"
+          formControlName="odorScore"
+          min="0"
+          max="100"
+          placeholder="0 - 100">
+      </div>
+
+      <div class="form-group">
+        <label>Waste Level</label>
+        <input
+          type="number"
+          formControlName="wasteLevel"
+          min="0"
+          max="100"
+          placeholder="0 - 100">
+      </div>
+
+      <div class="form-group">
+        <label>Footfall</label>
+        <input
+          type="number"
+          formControlName="footfall"
+          min="0"
+          placeholder="Number of visitors">
+      </div>
+
+      <div class="form-group">
+        <label>Complaints</label>
+        <input
+          type="number"
+          formControlName="complaints"
+          min="0"
+          placeholder="Number of complaints">
+      </div>
+
+      <div class="form-group">
+        <label>Inspection Date</label>
+        <input
+          type="date"
+          formControlName="inspectionDate">
+      </div>
+
+      <div class="form-group">
+        <label>Inspector Name</label>
+        <input
+          type="text"
+          formControlName="inspector"
+          placeholder="Enter inspector name">
+      </div>
+
+      <div class="form-group checkbox-group">
+        <label>Water Availability</label>
+
+        <label class="checkbox-label">
+          <input
+            type="checkbox"
+            formControlName="waterAvailability">
+          Water Available
+        </label>
+      </div>
+
+    </div>
+
+    <div *ngIf="successMessage" class="success">
+      {{ successMessage }}
+    </div>
+
+    <div *ngIf="errorMessage" class="error">
+      {{ errorMessage }}
+    </div>
+
+    <div class="form-actions">
+
+      <button
+        type="button"
+        class="cancel-btn"
+        (click)="cancel()">
+        Cancel
+      </button>
+
+      <button
+        type="submit"
+        class="submit-btn"
+        [disabled]="submitting">
+
+        {{ submitting ? 'Submitting...' : 'Submit Inspection' }}
+
+      </button>
+
+    </div>
+
+  </form>
+
+</div>

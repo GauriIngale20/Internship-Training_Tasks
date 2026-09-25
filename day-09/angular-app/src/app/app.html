@@ -1,0 +1,33 @@
+<div class="app-container">
+
+  <header class="navbar">
+    <div class="brand">
+      <span class="brand-icon">🏢</span>
+      <span>Facility Inspection</span>
+    </div>
+
+    <nav>
+      <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+        Dashboard
+      </a>
+      <a routerLink="/facilities" routerLinkActive="active">
+        Facilities
+      </a>
+      <a routerLink="/inspection" routerLinkActive="active">
+        New Inspection
+      </a>
+      <a routerLink="/history" routerLinkActive="active">
+        History
+      </a>
+    </nav>
+  </header>
+
+  <main class="main-content">
+    <router-outlet></router-outlet>
+  </main>
+
+  <footer>
+    <p>Facility Inspection Dashboard • Angular + TypeScript + REST API</p>
+  </footer>
+
+</div>

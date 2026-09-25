@@ -1,0 +1,104 @@
+<div class="details-page">
+
+  <div class="page-header">
+    <a routerLink="/facilities" class="back-link">
+      ← Back to Facilities
+    </a>
+
+    <h1>Facility Details</h1>
+    <p>Detailed inspection information for the selected facility.</p>
+  </div>
+
+  <div *ngIf="loading" class="message">
+    Loading facility details...
+  </div>
+
+  <div *ngIf="error" class="error">
+    {{ error }}
+  </div>
+
+  <div *ngIf="!loading && !error && facility">
+
+    <div class="facility-header">
+
+      <div>
+        <h2>{{ facility.name }}</h2>
+        <p>📍 {{ facility.location }}</p>
+      </div>
+
+      <span
+        class="status"
+        [class.inspected]="facility.status === 'Inspected'"
+        [class.attention]="facility.status === 'Needs Attention'">
+        {{ facility.status }}
+      </span>
+
+    </div>
+
+    <div class="details-grid">
+
+      <div class="detail-card">
+        <span>🧹 Cleanliness Score</span>
+        <strong>{{ facility.cleanlinessScore }}%</strong>
+      </div>
+
+      <div class="detail-card">
+        <span>👃 Odor Score</span>
+        <strong>{{ facility.odorScore }}</strong>
+      </div>
+
+      <div class="detail-card">
+        <span>🗑️ Waste Level</span>
+        <strong>{{ facility.wasteLevel }}</strong>
+      </div>
+
+      <div class="detail-card">
+        <span>💧 Water Availability</span>
+        <strong>
+          {{ facility.waterAvailability ? 'Available' : 'Unavailable' }}
+        </strong>
+      </div>
+
+      <div class="detail-card">
+        <span>👥 Footfall</span>
+        <strong>{{ facility.footfall }}</strong>
+      </div>
+
+      <div class="detail-card">
+        <span>⚠️ Complaints</span>
+        <strong>{{ facility.complaints }}</strong>
+      </div>
+
+      <div class="detail-card">
+        <span>📅 Inspection Date</span>
+        <strong>{{ facility.inspectionDate }}</strong>
+      </div>
+
+      <div class="detail-card">
+        <span>👤 Inspector</span>
+        <strong>{{ facility.inspector }}</strong>
+      </div>
+
+    </div>
+
+    <div class="score-section">
+
+      <h2>Cleanliness Overview</h2>
+
+      <div class="score-header">
+        <span>Cleanliness Score</span>
+        <strong>{{ facility.cleanlinessScore }}%</strong>
+      </div>
+
+      <div class="progress">
+        <div
+          class="progress-bar"
+          [style.width.%]="facility.cleanlinessScore">
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>

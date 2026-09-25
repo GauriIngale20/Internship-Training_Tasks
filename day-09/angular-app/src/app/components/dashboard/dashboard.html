@@ -1,0 +1,84 @@
+<div class="dashboard">
+
+  <div class="page-header">
+    <h1>Facility Inspection Dashboard</h1>
+    <p>Monitor facility inspection and hygiene status.</p>
+  </div>
+
+  <div *ngIf="loading" class="message">
+    Loading facility data...
+  </div>
+
+  <div *ngIf="error" class="error">
+    {{ error }}
+  </div>
+
+  <div *ngIf="!loading && !error">
+
+    <div class="metrics">
+
+      <div class="metric-card">
+        <div class="icon">🏢</div>
+        <div>
+          <h3>Total Facilities</h3>
+          <p>{{ totalFacilities }}</p>
+        </div>
+      </div>
+
+      <div class="metric-card">
+        <div class="icon">✅</div>
+        <div>
+          <h3>Inspected</h3>
+          <p>{{ inspectedFacilities }}</p>
+        </div>
+      </div>
+
+      <div class="metric-card">
+        <div class="icon">⚠️</div>
+        <div>
+          <h3>Needs Attention</h3>
+          <p>{{ attentionFacilities }}</p>
+        </div>
+      </div>
+
+      <div class="metric-card">
+        <div class="icon">🧹</div>
+        <div>
+          <h3>Avg. Cleanliness</h3>
+          <p>{{ averageCleanliness }}%</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="overview">
+
+      <h2>Inspection Overview</h2>
+
+      <div class="overview-content">
+
+        <div class="overview-text">
+          <span>Facilities inspected</span>
+          <strong>
+            {{ inspectedFacilities }} / {{ totalFacilities }}
+          </strong>
+        </div>
+
+        <div class="progress">
+          <div
+            class="progress-bar"
+            [style.width.%]="
+              totalFacilities
+                ? (inspectedFacilities / totalFacilities) * 100
+                : 0
+            ">
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>

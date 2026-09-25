@@ -1,0 +1,153 @@
+```html
+<div class="facility-page">
+
+  <div class="page-header">
+    <div>
+      <h1>Facilities</h1>
+      <p>View and monitor all facility inspection records.</p>
+    </div>
+
+    <a routerLink="/inspection" class="add-button">
+      + New Inspection
+    </a>
+  </div>
+
+  <div class="filters">
+
+    <div class="search-box">
+      <label>Search</label>
+      <input
+        type="text"
+        [(ngModel)]="searchText"
+        (input)="applyFilters()"
+        placeholder="Search facility or location..."
+      />
+    </div>
+
+    <div class="filter-box">
+      <label>Status</label>
+      <select
+        [(ngModel)]="selectedStatus"
+        (change)="applyFilters()">
+        <option value="All">All Status</option>
+        <option value="Inspected">Inspected</option>
+        <option value="Needs Attention">Needs Attention</option>
+      </select>
+    </div>
+
+    <div class="filter-box">
+      <label>Sort By</label>
+      <select
+        [(ngModel)]="sortBy"
+        (change)="applyFilters()">
+        <option value="name">Name</option>
+        <option value="cleanliness">Cleanliness Score</option>
+        <option value="complaints">Complaints</option>
+      </select>
+    </div>
+
+    <button class="clear-button" (click)="clearFilters()">
+      Clear
+    </button>
+
+  </div>
+
+  <div *ngIf="loading" class="message">
+    Loading facilities...
+  </div>
+
+  <div *ngIf="error" class="error">
+    {{ error }}
+  </div>
+
+  <div *ngIf="!loading && !error">
+
+    <div class="result-info">
+      Showing {{ filteredFacilities.length }} of {{ facilities.length }} facilities
+    </div>
+
+    <div class="table-card">
+
+      <table>
+
+        <thead>
+          <tr>
+            <th>Facility</th>
+            <th>Location</th>
+            <th>Cleanliness</th>
+            <th>Complaints</th>
+            <th>Water</th>
+            <th>Status</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+
+        <tbody>
+
+          <tr *ngFor="let facility of filteredFacilities">
+
+            <td>
+              <strong>{{ facility.name }}</strong>
+              <small>{{ facility.inspector }}</small>
+            </td>
+
+            <td>{{ facility.location }}</td>
+
+            <td>
+              <div class="score">
+                <span>{{ facility.cleanlinessScore }}%</span>
+
+                <div class="score-bar">
+                  <div
+                    class="score-fill"
+                    [style.width.%]="facility.cleanlinessScore">
+                  </div>
+                </div>
+              </div>
+            </td>
+
+            <td>{{ facility.complaints }}</td>
+
+            <td>
+              <span
+                [class.available]="facility.waterAvailability"
+                [class.unavailable]="!facility.waterAvailability">
+                {{ facility.waterAvailability ? 'Available' : 'Unavailable' }}
+              </span>
+            </td>
+
+            <td>
+              <span
+                class="status"
+                [class.inspected]="facility.status === 'Inspected'"
+                [class.attention]="facility.status === 'Needs Attention'">
+                {{ facility.status }}
+              </span>
+            </td>
+
+            <td>
+              <a
+                [routerLink]="['/facilities', facility.id]"
+                class="view-button">
+                View
+              </a>
+            </td>
+
+          </tr>
+
+        </tbody>
+
+      </table>
+
+      <div
+        *ngIf="filteredFacilities.length === 0"
+        class="no-data">
+        No facilities found.
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+```
