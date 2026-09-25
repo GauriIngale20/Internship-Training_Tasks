@@ -17,12 +17,12 @@ st.set_page_config(
 
 @st.cache_data
 def load_data():
-    return pd.read_csv("dataset/facility_hygiene.csv")
+    return pd.read_csv("day_10/dataset/facility_hygiene.csv")
 
 
 @st.cache_resource
 def load_model():
-    return joblib.load("models/logistic_regression.pkl")
+    return joblib.load("day_10/models/logistic_regression.pkl")
 
 
 df = load_data()
@@ -386,7 +386,7 @@ st.subheader(
 
 
 feature_importance_path = (
-    "models/feature_importance.csv"
+    "day_10/models/feature_importance.csv"
 )
 
 
